@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DateBook</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_lista_compromissos">Lista de Compromissos</string>
+    <string name="title_activity_lista_compromissos">Lista Compromissos</string>
+    <string name="btn_novo">Novo</string>
+    <string name="title_activity_cadastrar_compromisso">Cadastrar Compromisso</string>
+    <string name="input_titulo_compromisso">"Digite o titulo "</string>
+    <string name="title_activity_lista_exemplo">Lista de Compromissos</string>
+    <string name="Insert">Adicionar</string>
+    <string name="menu_delete">Delete</string>
+    <string name="button_salvar">Adicionar</string>
+    <string name="title_activity_todo_details">Compromisso</string>
+    <string name="compromisso_edit">Digite o compromisso</string>
+    <string name="compromisso_detalhe">Informações</string>
+    <string name="compromisso_editar">Editar</string>
+    <string name="info">Aplicativo para agendamento de compromissos. Para começar a agendar compromissos clique em uma data para agendar.</string>
+    <string name="title_activity_sobre">Sobre</string>
+    <string name="telaPrincipal">Tela Principal</string>
+    <string name="Sobre">Sobre</string>
+    <string name="hint_titulo">Digite um titulo</string>
+
+</resources>

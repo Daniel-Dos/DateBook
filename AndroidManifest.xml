@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.pos.trabalho.appdatebook2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.ListarActivity"
+            android:label="@string/title_activity_lista_compromissos" >
+        </activity>
+        <activity
+            android:name=".activity.CadastrarActivity"
+            android:label="@string/title_activity_cadastrar_compromisso" >
+        </activity>
+
+        <provider
+            android:name=".provider.CompromissosProvider"
+            android:authorities="br.pos.trabalho.appdatebook2.provider" >
+        </provider>
+
+        <activity
+            android:name=".activity.Listar2Activity"
+            android:label="@string/title_activity_lista_exemplo" >
+        </activity>
+        <activity
+            android:name=".activity.CompromissoAction"
+            android:label="@string/title_activity_todo_details" >
+        </activity>
+        <activity
+            android:name="br.pos.trabalho.appdatebook2.activity.Sobre"
+            android:label="@string/title_activity_sobre" >
+        </activity>
+        <activity
+            android:name=".Sobre"
+            android:label="@string/title_activity_sobre" >
+        </activity>
+    </application>
+
+</manifest>

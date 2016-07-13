@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="#FEDCBA" >
+
+	<ListView
+	    android:id="@android:id/list"
+	    android:layout_width="wrap_content"
+	    android:layout_height="0dp"
+	    android:layout_weight="0.94" >
+
+	</ListView>
+
+	<Button
+	    android:id="@+id/btnSalvar"
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:layout_marginBottom="17dp"
+	    android:background="#55A6F7"
+	    android:text="@string/btn_novo" />
+
+</LinearLayout>

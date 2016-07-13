@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="input_hora_inicio">Hora do Inicio</string>
+    <string name="input_hora_termino">Hora do Termino</string>
+    <string name="text_data">Data:</string>
+    <string name="btnCadastrar">Adicionar</string>
+</resources>
